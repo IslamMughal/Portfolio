@@ -34,7 +34,7 @@ export default function Blogs() {
                 <motion.h3 
                   className="text-xl font-semibold mb-2 hover:text-primary transition-colors"
                   whileHover={{ x: 5 }}
-                  transition={{ type: "spring", stiffness: 300 }}
+                  transition={{ type: "tween" }}
                 >
                   {blog.title}
                 </motion.h3>

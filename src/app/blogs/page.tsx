@@ -35,7 +35,7 @@ export default function Blogs() {
               <motion.h2 
                 className="text-xl font-semibold mb-2"
                 whileHover={{ x: 5 }}
-                transition={{ type: "spring", stiffness: 300 }}
+                transition={{ type: "tween" }}
               >
                 <Link href={`/blogs/${blog.slug}`} className="hover:text-primary transition-colors">
                   {blog.title}

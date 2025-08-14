@@ -83,7 +83,7 @@ export default function Contact() {
               className="flex items-center gap-4"
               variants={fadeInUp}
               whileHover={{ x: 10 }}
-              transition={{ type: "spring", stiffness: 300 }}
+              transition={{ type: "tween" }}
             >
               <FaEnvelope className="h-6 w-6 text-primary" />
               <div>
@@ -98,7 +98,7 @@ export default function Contact() {
               className="flex items-center gap-4"
               variants={fadeInUp}
               whileHover={{ x: 10 }}
-              transition={{ type: "spring", stiffness: 300 }}
+              transition={{ type: "tween" }}
             >
               <FaPhone className="h-6 w-6 text-primary" />
               <div>
@@ -113,7 +113,7 @@ export default function Contact() {
               className="flex items-center gap-4"
               variants={fadeInUp}
               whileHover={{ x: 10 }}
-              transition={{ type: "spring", stiffness: 300 }}
+              transition={{ type: "tween" }}
             >
               <FaMapMarkerAlt className="h-6 w-6 text-primary" />
               <div>

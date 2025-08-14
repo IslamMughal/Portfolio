@@ -42,7 +42,7 @@ export default function Projects() {
               <motion.h3 
                 className="text-xl font-semibold mb-2"
                 whileHover={{ x: 5 }}
-                transition={{ type: "spring", stiffness: 300 }}
+                transition={{ type: "tween" }}
               >
                 {project.title}
               </motion.h3>

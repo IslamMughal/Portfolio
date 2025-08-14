@@ -42,7 +42,7 @@ export default function Projects() {
             <motion.div 
               className="aspect-video bg-gray-200 dark:bg-gray-800"
               whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
+              transition={{ type: "tween" }}
             >
               <Image
                 src={project.image}
@@ -57,7 +57,7 @@ export default function Projects() {
               <motion.h3 
                 className="text-xl font-semibold mb-2"
                 whileHover={{ x: 5 }}
-                transition={{ type: "spring", stiffness: 300 }}
+                transition={{ type: "tween" }}
               >
                 {project.title}
               </motion.h3>
